@@ -178,65 +178,6 @@ streamlit run app.py
 5. 有效前沿使用二次规划数值优化，计算稳定可靠
 6. 本系统仅用于学术研究和学习，不构成投资建议
 
-## 🌐 部署到GitHub
 
-### 初始化Git仓库
 
-```bash
-git init
-git add .
-git commit -m "Initial commit: Quantitative Investment Analysis System"
-```
-
-### 创建GitHub仓库
-
-1. 访问 https://github.com/new
-2. 创建新仓库（例如：quant-investment-system）
-3. 不要初始化README（我们已经有了）
-
-### 推送到GitHub
-
-```bash
-git remote add origin https://github.com/your-username/quant-investment-system.git
-git branch -M main
-git push -u origin main
-```
-
-### 部署到Streamlit Cloud
-
-1. 访问 https://streamlit.io/cloud
-2. 连接GitHub账号
-3. 选择你的仓库
-4. 设置主文件为 `app.py`
-5. 点击"Deploy"
-
-## 📝 更新日志
-
-### v2.0 (最新)
-- ✅ 使用二次规划替代解析解计算有效前沿
-- ✅ 优化有效前沿图表，突出双曲线形态
-- ✅ 精简代码结构，提高可维护性
-- ✅ 移除因子分析模块，聚焦投资组合优化
-- ✅ 清理临时文件，符合GitHub上传标准
-
-### v1.0
-- ✅ 基础投资组合优化功能
-- ✅ 股票数据下载
-- ✅ 回测分析
-
-## 📄 许可证
-
-MIT License
-
-## 👨‍💻 作者
-
-Python and Data Structure Project
-
-## 🤝 贡献
-
-欢迎提交Issue和Pull Request！
-
-## 📮 联系方式
-
-如有问题，欢迎通过GitHub Issues联系。
 
